@@ -1,0 +1,155 @@
+Automatically translated using m2cpp 2.0 on 2019-05-01 21:38:38
+
+Error in class Var on line 1:
+function [bren] = calcbren(handles)
+^
+unknown data type
+
+Error in class Var on line 1:
+function [bren] = calcbren(handles)
+          ^
+unknown data type
+
+Error in class Var on line 2:
+
+poutImage = imread('pout.png');
+ ^
+unknown data type
+
+Error in class Var on line 1:
+
+poutImage = imread('pout.png');
+^
+unknown data type
+
+Error in class Var on line 3:
+
+[M, N] = size(double(poutImage));
+                      ^
+unknown data type
+
+Error in class Var on line 3:
+
+[M, N] = size(double(poutImage));
+  ^
+unknown data type
+
+Error in class Var on line 3:
+
+[M, N] = size(double(poutImage));
+     ^
+unknown data type
+
+Error in class Var on line 3:
+
+[M, N] = size(double(poutImage));
+          ^
+unknown data type
+
+Error in class Var on line 4:
+
+        DH = zeros(M, N);
+         ^
+unknown data type
+
+Error in class Var on line 4:
+
+        DH = zeros(M, N);
+                    ^
+unknown data type
+
+Error in class Var on line 4:
+
+        DH = zeros(M, N);
+                       ^
+unknown data type
+
+Error in class Var on line 5:
+
+        DV = zeros(M, N);
+         ^
+unknown data type
+
+Error in class Var on line 5:
+
+        DV = zeros(M, N);
+                    ^
+unknown data type
+
+Error in class Var on line 5:
+
+        DV = zeros(M, N);
+                       ^
+unknown data type
+
+Error in class Var on line 6:
+
+        DV(1:M-2,:) = poutImage(3:end,:)-poutImage(1:end-2,:);
+              ^
+unknown data type
+
+Error in class Set on line 6:
+
+        DV(1:M-2,:) = poutImage(3:end,:)-poutImage(1:end-2,:);
+         ^
+unknown data type
+
+Error in class Var on line 7:
+
+        DH(:,1:N-2) = poutImage(:,3:end)-poutImage(:,1:end-2);
+                ^
+unknown data type
+
+Error in class Set on line 7:
+
+        DH(:,1:N-2) = poutImage(:,3:end)-poutImage(:,1:end-2);
+         ^
+unknown data type
+
+Error in class Var on line 8:
+
+        FM = max(DH, DV);        
+         ^
+unknown data type
+
+Error in class Var on line 8:
+
+        FM = max(DH, DV);        
+                  ^
+unknown data type
+
+Error in class Var on line 8:
+
+        FM = max(DH, DV);        
+                      ^
+unknown data type
+
+Error in class Var on line 9:
+
+        FM = FM.^2;
+         ^
+unknown data type
+
+Error in class Var on line 9:
+
+        FM = FM.^2;
+              ^
+unknown data type
+
+Error in class Var on line 10:
+
+        bren = mean2(FM);
+         ^
+unknown data type
+
+Error in class Var on line 10:
+
+        bren = mean2(FM);
+                      ^
+unknown data type
+
+Error in class Var on line 12:
+
+set(handles.brenDisp,'String',num2str(bren));
+                                       ^
+unknown data type
